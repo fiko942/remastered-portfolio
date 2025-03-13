@@ -51,6 +51,7 @@ html, body {
   filter: blur(100px);
   opacity: 0.2;
   animation: gradientMove 12s infinite alternate ease-in-out;
+  z-index: -1;
 }
 
 /* Gradient abstrak di pojok kiri bawah */
@@ -69,6 +70,7 @@ html, body {
   filter: blur(100px);
   opacity: 0.2;
   animation: gradientMove 10s infinite alternate ease-in-out;
+  z-index: 1;
 }
 
 /* Animasi pergerakan halus */

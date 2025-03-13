@@ -33,7 +33,7 @@ function ProfileFrame({ onLoading }) {
     }, [])
 
     return model && (
-        <primitive object={model} scale={3} ref={modelRef} position={[0, -3, 0]} />
+        <primitive object={model} scale={4} ref={modelRef} position={[0, -4, 0]} />
     )   
 }
 
@@ -63,6 +63,11 @@ export default function Header() {
                 <div className="name">
                     <h3 className='mt-1 font-semibold text-gray-700'>Wiji Fiko Teren</h3>
                     <h5 className='text-xs mt-[-3px]'>Junior Software Developer at <a href="#" className='text-blue-600 underline'>Ziqva Labs</a></h5>
+                </div>
+            </div>
+            <div className="right-side flex items-center gap-2 w-fit ml-auto mr-0">
+                <div className='cursor-pointer pt-2 px-2 rounded-md shadow-lg shadow-gray-300 bg-white border-[1px] border-gray-300 transition-colors duration-100 hover:bg-gray-100 h-[30px]'>
+                    <ion-icon name="menu-outline" style={{fontSize: '20px', marginTop: '-10px'}}></ion-icon>
                 </div>
             </div>
         </div>
