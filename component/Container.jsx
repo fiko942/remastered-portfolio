@@ -5,6 +5,8 @@ export default function Container({children}) {
         <div className="w-full mx-auto">
             <Header />
             {children}
+            <div className="gradient-top-right"></div>
+            <div className="gradient-bottom-left"></div>
         </div>
     )
 }

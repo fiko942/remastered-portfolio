@@ -48,6 +48,8 @@ export default function Header() {
             <div className="right-side flex w-fit ml-auto mr-0 items-center">
                 <Profile3D />
             </div>
+           
+
         </div>
     )
 }
