@@ -1,0 +1,13 @@
+import Head from "next/head";
+import "../styles/globals.css"; // Pastikan ada file CSS untuk styling global
+
+export default function MyApp({ Component, pageProps }) {
+    return (
+        <>
+            <Head>
+                <title>Wiji's Portfolio</title>
+            </Head>
+            <Component {...pageProps} />
+        </>
+    );
+}
