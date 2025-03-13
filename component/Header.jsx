@@ -7,6 +7,7 @@ function ProfileFrame() {
     const [model, setModel] = useState(null)
     const modelRef = useRef()
     const [speed, setSpeed] = useState(0.01)
+    const [loading, setLoading] = useState(true)
 
     useFrame(() => {
         if (modelRef.current) {
@@ -48,8 +49,6 @@ export default function Header() {
             <div className="right-side flex w-fit ml-auto mr-0 items-center">
                 <Profile3D />
             </div>
-           
-
         </div>
     )
 }
