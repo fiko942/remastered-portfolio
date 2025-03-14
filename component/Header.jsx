@@ -52,7 +52,7 @@ function Profile3D({ onLoading }) {
 
 export default function Header() {
     return (
-        <div className="header flex items-center w-full h-[50px] overflow-hidden bg-white opacity-100 shadow-sm inset-shadow-zinc-500 transition-all duration-300 mx-auto px-4" style={{
+        <div className="header flex items-center w-full !h-[50px] overflow-hidden bg-white opacity-100 shadow-sm inset-shadow-zinc-500 transition-all duration-300 mx-auto px-4" style={{
             backdropFilter: 'blur(50px)',
             opacity: 0.9
         }}>
@@ -67,7 +67,7 @@ export default function Header() {
             </div>
             <div className="right-side flex items-center gap-2 w-fit ml-auto mr-0">
                 <div className='cursor-pointer pt-2 px-2 rounded-md shadow-lg shadow-gray-300 bg-white border-[1px] border-gray-300 transition-colors duration-100 hover:bg-gray-100 h-[30px]'>
-                    <ion-icon name="menu-outline" style={{fontSize: '20px', marginTop: '-10px'}}></ion-icon>
+                    <ion-icon name="menu-outline" style={{fontSize: '20px', marginTop: '-10px !important;'}}></ion-icon>
                 </div>
             </div>
         </div>
